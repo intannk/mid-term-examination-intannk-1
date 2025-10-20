@@ -85,7 +85,6 @@ void DrawingCanvas::paintEvent(QPaintEvent *event) {
         painter.drawRect(rect);
     }
 
-    // Gambar titik biru
     QPen pen(Qt::blue, 5);
     painter.setPen(pen);
     painter.setBrush(QBrush(Qt::blue));
